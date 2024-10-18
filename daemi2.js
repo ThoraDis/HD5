@@ -455,13 +455,13 @@ var render = function() {
     }
 
     //Hægri leggur númer 8 í lista range(-30,90)
-    if(90<=theta[8] || theta[8]<=-60){
+    if(90<=theta[8] || theta[8]<=-90){
         speedrightleg=-speedrightleg;
 
     }
 
     //Vinstri leggur númer 6 í lista range(-30,90)
-    if(90<=theta[6] || theta[6]<=-60){
+    if(90<=theta[6] || theta[6]<=-90){
         speedleftleg=-speedleftleg;
 
     }
